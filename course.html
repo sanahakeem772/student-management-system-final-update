@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>All Courses</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+body{
+    background:#f5f5f5;
+}
+
+/* Navbar */
+
+.navbar{
+    background:#0d6efd;
+    color:white;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 40px;
+}
+
+.logo{
+    font-size:28px;
+}
+
+.nav-links{
+    display:flex;
+    list-style:none;
+}
+
+.nav-links li{
+    margin-left:20px;
+}
+
+.nav-links a{
+    color:white;
+    text-decoration:none;
+    font-size:18px;
+}
+
+.nav-links a:hover{
+    color:yellow;
+}
+
+/* Heading */
+
+.heading{
+    text-align:center;
+    margin:30px 0;
+    color:#333;
+}
+
+/* Course Cards */
+
+.course-container{
+    width:90%;
+    margin:auto;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+    padding-bottom:40px;
+}
+
+.card{
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,.2);
+    text-align:center;
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.card h3{
+    color:#0d6efd;
+    margin-bottom:10px;
+}
+
+.card p{
+    color:#666;
+    margin-bottom:15px;
+}
+
+.btn{
+    padding:10px 20px;
+    background:#0d6efd;
+    color:white;
+    text-decoration:none;
+    border-radius:5px;
+}
+
+.btn:hover{
+    background:#084298;
+}
+
+footer{
+    background:#0d6efd;
+    color:white;
+    text-align:center;
+    padding:15px;
+}
+
+</style>
+
+</head>
+<body>
+
+<header>
+
+<nav class="navbar">
+
+<h2 class="logo">LearnHub</h2>
+
+<ul class="nav-links">
+<li><a href="index.html">Home</a></li>
+<li><a href="dashboard.html">Dashboard</a></li>
+<li><a href="progress.html">Progress</a></li>
+<li><a href="login.html">Logout</a></li>
+</ul>
+
+</nav>
+
+</header>
+
+<h1 class="heading">Available Courses</h1>
+
+<div class="course-container">
+
+<div class="card">
+<h3>HTML</h3>
+<p>Learn website structure.</p>
+<a href="#" class="btn">Enroll</a>
+</div>
+
+<div class="card">
+<h3>CSS</h3>
+<p>Style web pages beautifully.</p>
+<a href="#" class="btn">Enroll</a>
+</div>
+
+<div class="card">
+<h3>JavaScript</h3>
+<p>Add interactivity.</p>
+<a href="#" class="btn">Enroll</a>
+</div>
+
+<div class="card">
+<h3>Python</h3>
+<p>Programming for beginners.</p>
+<a href="#" class="btn">Enroll</a>
+</div>
+
+<div class="card">
+<h3>Java</h3>
+<p>Object-Oriented Programming.</p>
+<a href="#" class="btn">Enroll</a>
+</div>
+
+<div class="card">
+<h3>C Programming</h3>
+<p>Programming fundamentals.</p>
+<a href="#" class="btn">Enroll</a>
+</div>
+
+<div class="card">
+<h3>C++</h3>
+<p>Advanced programming concepts.</p>
+<a href="#" class="btn">Enroll</a>
+</div>
+
+<div class="card">
+<h3>Data Structures</h3>
+<p>Learn algorithms and data handling.</p>
+<a href="#" class="btn">Enroll</a>
+</div>
+
+<div class="card">
+<h3>DBMS</h3>
+<p>Database Management System.</p>
+<a href="#" class="btn">Enroll</a>
+</div>
+
+<div class="card">
+<h3>SQL</h3>
+<p>Manage relational databases.</p>
+<a href="#" class="btn">Enroll</a>
+</div>
+
+<div class="card">
+<h3>React JS</h3>
+<p>Modern frontend development.</p>
+<a href="#" class="btn">Enroll</a>
+</div>
+
+<div class="card">
+<h3>Node JS</h3>
+<p>Backend web development.</p>
+<a href="#" class="btn">Enroll</a>
+</div>
+
+<div class="card">
+<h3>Artificial Intelligence</h3>
+<p>Basics of AI and ML.</p>
+<a href="#" class="btn">Enroll</a>
+</div>
+
+<div class="card">
+<h3>Cyber Security</h3>
+<p>Protect systems and networks.</p>
+<a href="#" class="btn">Enroll</a>
+</div>
+
+<div class="card">
+<h3>Cloud Computing</h3>
+<p>Learn cloud technologies.</p>
+<a href="#" class="btn">Enroll</a>
+</div>
+
+</div>
+
+<footer>
+
+<p>© 2026 Student Course Management System</p>
+
+</footer>
+
+</body>
+</html>

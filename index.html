@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Course Management</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="course.html">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <nav class="navbar">
+            <h2 class="logo">LearnHub</h2>
+
+            <ul class="nav-links">
+                <li><a href="#" onclick="showSection('home')">Home</a></li>
+                <li><a href="#" onclick="showSection('courses')">Courses</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="register.html">Register</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+        <h1>Welcome to Student Course Management System</h1>
+
+        <p>
+            Learn new skills, enroll in courses and track your learning progress easily.
+        </p>
+
+        <button onclick="exploreCourses()">Explore Courses</button>
+    </section>
+
+    <!-- Course Section -->
+    <section id="courses" class="courses">
+
+        <h2>Popular Courses</h2>
+
+        <div class="course-container">
+
+            <div class="card">
+                <h3>HTML</h3>
+                <p>Learn webpage structure.</p>
+            </div>
+
+            <div class="card">
+                <h3>CSS</h3>
+                <p>Design beautiful websites.</p>
+            </div>
+
+            <div class="card">
+                <h3>JavaScript</h3>
+                <p>Add interactivity.</p>
+            </div>
+
+            <div class="card">
+                <h3>Python</h3>
+                <p>Programming for beginners.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Student Course Management System</p>
+    </footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
+
